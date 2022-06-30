@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "721583865790",
+    "project_id": "newsproject-3186c",
+    "storage_bucket": "newsproject-3186c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721583865790:android:af3fcdbe64b52add8043ef",
+        "android_client_info": {
+          "package_name": "com.example.verygoodcore.newsproject_monolith"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721583865790-pip0bfr1ddb6ufecff168j7nvrv8ch6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4Jp5etbHJq4t5vGII3tKVQqZSNhvhmg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721583865790-pip0bfr1ddb6ufecff168j7nvrv8ch6g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "721583865790-cmsmpeidadj8d3i2u3bmfh9nuagb59ok.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.can.newsproject-monolith.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721583865790:android:f9795391da7c7deb8043ef",
+        "android_client_info": {
+          "package_name": "com.example.verygoodcore.newsproject_monolith.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721583865790-pip0bfr1ddb6ufecff168j7nvrv8ch6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4Jp5etbHJq4t5vGII3tKVQqZSNhvhmg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721583865790-pip0bfr1ddb6ufecff168j7nvrv8ch6g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "721583865790-cmsmpeidadj8d3i2u3bmfh9nuagb59ok.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.can.newsproject-monolith.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

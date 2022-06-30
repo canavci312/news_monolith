@@ -1,0 +1,102 @@
+Date : 2022-06-04 15:45:23
+Directory : /Users/canavci/projects/newsproject_monolith/lib
+Total : 55 files,  3036 codes, 233 comments, 517 blanks, all 3786 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |         53 |      3,022 |        233 |        517 |      3,772 |
+| JSON     |          2 |         14 |          0 |          0 |         14 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                   | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                      |         55 |      3,036 |        233 |        517 |      3,786 |
+| app                                                                                                    |          2 |         25 |         12 |          6 |         43 |
+| app/view                                                                                               |          1 |         24 |          6 |          4 |         34 |
+| comments                                                                                               |          6 |        534 |         21 |         81 |        636 |
+| comments/cubit                                                                                         |          3 |        397 |         20 |         67 |        484 |
+| comments/view                                                                                          |          3 |        137 |          1 |         14 |        152 |
+| comments/view/widgets                                                                                  |          1 |         61 |          0 |          5 |         66 |
+| data_layer                                                                                             |         13 |        765 |         64 |        138 |        967 |
+| data_layer/news_api                                                                                    |         13 |        765 |         64 |        138 |        967 |
+| data_layer/news_api/model                                                                              |         10 |        633 |         57 |        115 |        805 |
+| domain                                                                                                 |         11 |        613 |         55 |        112 |        780 |
+| domain/comments                                                                                        |          7 |        324 |         37 |         73 |        434 |
+| domain/global_news                                                                                     |          4 |        289 |         18 |         39 |        346 |
+| home_page                                                                                              |          8 |        644 |         24 |        101 |        769 |
+| home_page/cubit                                                                                        |          3 |        523 |         24 |         81 |        628 |
+| home_page/view                                                                                         |          4 |        119 |          0 |         20 |        139 |
+| home_page/view/widgets                                                                                 |          2 |         48 |          0 |          9 |         57 |
+| l10n                                                                                                   |          3 |         20 |          6 |          4 |         30 |
+| l10n/arb                                                                                               |          2 |         14 |          0 |          0 |         14 |
+| news_detail                                                                                            |          6 |        307 |         15 |         51 |        373 |
+| news_detail/cubit                                                                                      |          3 |        229 |         15 |         41 |        285 |
+| news_detail/view                                                                                       |          3 |         78 |          0 |         10 |         88 |
+| news_detail/view/widgets                                                                               |          1 |         26 |          0 |          4 |         30 |
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                               | language | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /Users/canavci/projects/newsproject_monolith/lib/app/app.dart                                          | Dart     |          1 |          6 |          2 |          9 |
+| /Users/canavci/projects/newsproject_monolith/lib/app/view/app.dart                                     | Dart     |         24 |          6 |          4 |         34 |
+| /Users/canavci/projects/newsproject_monolith/lib/bootstrap.dart                                        | Dart     |         38 |          6 |          7 |         51 |
+| /Users/canavci/projects/newsproject_monolith/lib/comments/cubit/comments_cubit.dart                    | Dart     |         24 |          0 |          4 |         28 |
+| /Users/canavci/projects/newsproject_monolith/lib/comments/cubit/comments_cubit.freezed.dart            | Dart     |        366 |         20 |         60 |        446 |
+| /Users/canavci/projects/newsproject_monolith/lib/comments/cubit/comments_state.dart                    | Dart     |          7 |          0 |          3 |         10 |
+| /Users/canavci/projects/newsproject_monolith/lib/comments/view/comments_page.dart                      | Dart     |         18 |          0 |          4 |         22 |
+| /Users/canavci/projects/newsproject_monolith/lib/comments/view/comments_view.dart                      | Dart     |         58 |          1 |          5 |         64 |
+| /Users/canavci/projects/newsproject_monolith/lib/comments/view/widgets/user_input.dart                 | Dart     |         61 |          0 |          5 |         66 |
+| /Users/canavci/projects/newsproject_monolith/lib/data_layer/news_api/comments_repository.dart          | Dart     |         34 |          0 |          8 |         42 |
+| /Users/canavci/projects/newsproject_monolith/lib/data_layer/news_api/global_news_repository.dart       | Dart     |         50 |          0 |          4 |         54 |
+| /Users/canavci/projects/newsproject_monolith/lib/data_layer/news_api/model/model.dart                  | Dart     |          3 |          0 |          1 |          4 |
+| /Users/canavci/projects/newsproject_monolith/lib/data_layer/news_api/model/news_dto.dart               | Dart     |         18 |          1 |          6 |         25 |
+| /Users/canavci/projects/newsproject_monolith/lib/data_layer/news_api/model/news_dto.freezed.dart       | Dart     |        267 |         14 |         31 |        312 |
+| /Users/canavci/projects/newsproject_monolith/lib/data_layer/news_api/model/news_dto.g.dart             | Dart     |         24 |          4 |          5 |         33 |
+| /Users/canavci/projects/newsproject_monolith/lib/data_layer/news_api/model/response_model.dart         | Dart     |         11 |          0 |          5 |         16 |
+| /Users/canavci/projects/newsproject_monolith/lib/data_layer/news_api/model/response_model.freezed.dart | Dart     |        161 |         15 |         27 |        203 |
+| /Users/canavci/projects/newsproject_monolith/lib/data_layer/news_api/model/response_model.g.dart       | Dart     |         15 |          4 |          5 |         24 |
+| /Users/canavci/projects/newsproject_monolith/lib/data_layer/news_api/model/source.dart                 | Dart     |          8 |          1 |          3 |         12 |
+| /Users/canavci/projects/newsproject_monolith/lib/data_layer/news_api/model/source.freezed.dart         | Dart     |        117 |         14 |         27 |        158 |
+| /Users/canavci/projects/newsproject_monolith/lib/data_layer/news_api/model/source.g.dart               | Dart     |          9 |          4 |          5 |         18 |
+| /Users/canavci/projects/newsproject_monolith/lib/data_layer/news_api/news_api.dart                     | Dart     |         48 |          7 |         11 |         66 |
+| /Users/canavci/projects/newsproject_monolith/lib/domain/comments/comment.dart                          | Dart     |         12 |          0 |          3 |         15 |
+| /Users/canavci/projects/newsproject_monolith/lib/domain/comments/comment.freezed.dart                  | Dart     |        139 |         14 |         27 |        180 |
+| /Users/canavci/projects/newsproject_monolith/lib/domain/comments/comment.g.dart                        | Dart     |         12 |          4 |          5 |         21 |
+| /Users/canavci/projects/newsproject_monolith/lib/domain/comments/comment_list.dart                     | Dart     |         12 |          0 |          3 |         15 |
+| /Users/canavci/projects/newsproject_monolith/lib/domain/comments/comment_list.freezed.dart             | Dart     |        130 |         15 |         28 |        173 |
+| /Users/canavci/projects/newsproject_monolith/lib/domain/comments/comment_list.g.dart                   | Dart     |         13 |          4 |          5 |         22 |
+| /Users/canavci/projects/newsproject_monolith/lib/domain/comments/i_comments_repository.dart            | Dart     |          6 |          0 |          2 |          8 |
+| /Users/canavci/projects/newsproject_monolith/lib/domain/global_news/i_global_news_repository.dart      | Dart     |          5 |          0 |          3 |          8 |
+| /Users/canavci/projects/newsproject_monolith/lib/domain/global_news/news.dart                          | Dart     |         17 |          0 |          4 |         21 |
+| /Users/canavci/projects/newsproject_monolith/lib/domain/global_news/news.freezed.dart                  | Dart     |        246 |         14 |         27 |        287 |
+| /Users/canavci/projects/newsproject_monolith/lib/domain/global_news/news.g.dart                        | Dart     |         21 |          4 |          5 |         30 |
+| /Users/canavci/projects/newsproject_monolith/lib/firebase_options.dart                                 | Dart     |         59 |         12 |          5 |         76 |
+| /Users/canavci/projects/newsproject_monolith/lib/home_page/cubit/home_page_cubit.dart                  | Dart     |         33 |          0 |          5 |         38 |
+| /Users/canavci/projects/newsproject_monolith/lib/home_page/cubit/home_page_cubit.freezed.dart          | Dart     |        482 |         24 |         73 |        579 |
+| /Users/canavci/projects/newsproject_monolith/lib/home_page/cubit/home_page_state.dart                  | Dart     |          8 |          0 |          3 |         11 |
+| /Users/canavci/projects/newsproject_monolith/lib/home_page/home_page.dart                              | Dart     |          2 |          0 |          0 |          2 |
+| /Users/canavci/projects/newsproject_monolith/lib/home_page/view/home_page_page.dart                    | Dart     |         19 |          0 |          5 |         24 |
+| /Users/canavci/projects/newsproject_monolith/lib/home_page/view/home_page_view.dart                    | Dart     |         52 |          0 |          6 |         58 |
+| /Users/canavci/projects/newsproject_monolith/lib/home_page/view/widgets/news_search_input.dart         | Dart     |         31 |          0 |          5 |         36 |
+| /Users/canavci/projects/newsproject_monolith/lib/home_page/view/widgets/news_tile.dart                 | Dart     |         17 |          0 |          4 |         21 |
+| /Users/canavci/projects/newsproject_monolith/lib/l10n/arb/app_en.arb                                   | JSON     |          7 |          0 |          0 |          7 |
+| /Users/canavci/projects/newsproject_monolith/lib/l10n/arb/app_es.arb                                   | JSON     |          7 |          0 |          0 |          7 |
+| /Users/canavci/projects/newsproject_monolith/lib/l10n/l10n.dart                                        | Dart     |          6 |          6 |          4 |         16 |
+| /Users/canavci/projects/newsproject_monolith/lib/locator.dart                                          | Dart     |         16 |          0 |          3 |         19 |
+| /Users/canavci/projects/newsproject_monolith/lib/main_development.dart                                 | Dart     |          5 |          6 |          3 |         14 |
+| /Users/canavci/projects/newsproject_monolith/lib/main_production.dart                                  | Dart     |          5 |          6 |          3 |         14 |
+| /Users/canavci/projects/newsproject_monolith/lib/main_staging.dart                                     | Dart     |          5 |          6 |          3 |         14 |
+| /Users/canavci/projects/newsproject_monolith/lib/news_detail/cubit/news_detail_cubit.dart              | Dart     |         18 |          0 |          4 |         22 |
+| /Users/canavci/projects/newsproject_monolith/lib/news_detail/cubit/news_detail_cubit.freezed.dart      | Dart     |        206 |         15 |         33 |        254 |
+| /Users/canavci/projects/newsproject_monolith/lib/news_detail/cubit/news_detail_state.dart              | Dart     |          5 |          0 |          4 |          9 |
+| /Users/canavci/projects/newsproject_monolith/lib/news_detail/view/news_detail_page.dart                | Dart     |         20 |          0 |          3 |         23 |
+| /Users/canavci/projects/newsproject_monolith/lib/news_detail/view/news_detail_view.dart                | Dart     |         32 |          0 |          3 |         35 |
+| /Users/canavci/projects/newsproject_monolith/lib/news_detail/view/widgets/related_news.dart            | Dart     |         26 |          0 |          4 |         30 |
+| Total                                                                                                  |          |      3,036 |        233 |        517 |      3,786 |
++--------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
